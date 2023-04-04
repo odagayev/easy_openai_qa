@@ -8,7 +8,7 @@ Pass all of the relevant information about the error. Pass the following to Chat
 - The environment information (OS, Python version, environment variables, etc.)
 
 show the gif here with the 
-![](https://github.com/odagayev/easy_openai_qa/example_of_cli.gif)
+![](https://github.com/odagayev/easy_openai_qa/blob/master/example_of_cli.gif)
 
 ## Features
 
