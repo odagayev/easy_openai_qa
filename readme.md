@@ -4,7 +4,7 @@ CLI Error Assistant is a command-line utility that helps you automatically diagn
 
 ## Features
 
-- Automatically captures errors in the terminal
+- Given an option to provide error and environment information directly OpenAI for QA via bash
 - Parses error messages and environment information
 - Communicates with OpenAI ChatGPT API to get error resolution suggestions
 - Displays solutions in a user-friendly and color-coded format
