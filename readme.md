@@ -2,6 +2,14 @@
 
 CLI Error Assistant is a command-line utility that helps you automatically diagnose and fix errors encountered in the terminal. By leveraging the OpenAI ChatGPT API, the utility provides suggestions for fixing common errors in a user-friendly manner.
 
+Pass all of the relevant information about the error. Pass the following to ChatGPT for a fast answer:
+- The command you put in
+- The error message
+- The environment information (OS, Python version, environment variables, etc.)
+
+show the gif here with the 
+![](https://github.com/odagayev/easy_openai_qa/example_of_cli.gif)
+
 ## Features
 
 - Given an option to provide error and environment information directly OpenAI for QA via bash

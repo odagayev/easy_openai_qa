@@ -22,7 +22,7 @@ Here is everything I know about my environment:\n{environment_info}\n
         model="gpt-3.5-turbo",
         api_key=api_key,
         messages=[
-            {"role":"system", "content":"You are a very helpful technical assistant. Please keep explanations as simple as possible."},
+            {"role":"system", "content":"You are a very helpful technical assistant. Provide code solutions when possible. Please keep explanations as simple as possible."},
             {"role":"user", "content":message},
         ]
     )
