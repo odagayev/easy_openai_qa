@@ -13,7 +13,7 @@ See the example below:
 
 ## Features
 
-- Given an option to provide error and environment information directly OpenAI for QA via bash
+- Gives an option to provide error and environment information directly to OpenAI for QA via bash
 - Parses error messages and environment information
 - Communicates with OpenAI ChatGPT API to get error resolution suggestions
 - Displays solutions in a user-friendly and color-coded format
