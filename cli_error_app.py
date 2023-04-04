@@ -11,10 +11,6 @@ dotenv.load_dotenv()
 
 # Function to communicate with the ChatGPT API
 def ask_chatgpt(api_key, error_message, input=None, environment_info=None):
-    #delete the last line of environment_info for presentation purposes
-    lines = environment_info.split("\n")
-    lines_without_last = lines[:-1]
-    environment_info = "\n".join(lines_without_last)
     message = f"""
 I ran the following command:\n{input}\n
 I received the following error message:\n{error_message}\n
