@@ -21,7 +21,7 @@ CLI Error Assistant is a command-line utility that helps you automatically diagn
 1. Clone this repository:
 
 ```
-git clone https://github.com/yourusername/cli-error-assistant.git
+git clone https://github.com/odagayev/easy_openai_qa
 ```
 
 2. Install the required Python libraries:
