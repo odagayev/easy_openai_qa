@@ -39,7 +39,7 @@ OPENAI_API_KEY=your_api_key_here
 4. Set up the `error_wrapper.sh` script to make it accessible from the terminal:
 
 ```
-ln -s /path/to/your/error_wrapper.sh /usr/local/bin/error_wrapper
+sudo ln -s /path/to/your/openai_qa_error.sh /usr/local/bin/openai_qa_error
 ```
 
 ## Usage
@@ -47,8 +47,13 @@ ln -s /path/to/your/error_wrapper.sh /usr/local/bin/error_wrapper
 To use the CLI Error Assistant, simply prefix any command in the terminal with `error_wrapper`. For example:
 
 ```
-error_wrapper ls non_existent_directory
+openai_qa_error ls non_existent_directory
 ```
+or 
+```
+openai_qa_error python3 test.py
+```
+
 
 If an error occurs, the CLI Error Assistant will capture the error message and provide a solution using the ChatGPT API.
 
